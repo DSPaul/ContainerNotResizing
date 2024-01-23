@@ -33,7 +33,7 @@
                   Grid.Column="0" Grid.Row="1">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <vwp:VirtualizingWrapPanel AllowDifferentSizedItems="True" Orientation="Horizontal" SpacingMode="Uniform"/>
+                    <vwp:VirtualizingWrapPanel Orientation="Horizontal"/>
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
         </ListView>
